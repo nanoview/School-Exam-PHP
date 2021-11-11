@@ -1,0 +1,54 @@
+
+
+.neliö_j{
+  background-color: #ff2929;
+  background-image: linear-gradient(red 20%, black );
+  width: 100%;
+  display:table;
+  text-align: center;
+  color: whitesmoke;
+  -webkit-box-shadow: 0px 0px 115px -6px rgba(236, 12, 12, 0.5);
+  -moz-box-shadow: 0px 0px 11px -6px rgba(128, 48, 45, 0.5);
+  box-shadow: 0px 0px 11px -6px rgba(204, 12, 12, 0.5);
+} 
+.neliö_s{
+  background-color: #1529db;
+ background-image: linear-gradient(#18447e 20%, black);
+   width: 100%;
+  display:table;
+  text-align: center;
+  color: greenyellow;
+  -webkit-box-shadow: 0px 0px 115px -6px rgba(15,24,61, 0.5);
+  -moz-box-shadow: 0px 0px 115px -6px rgba(15,24,61, 0.5);
+  box-shadow: 0px 0px 115px -6px rgba(15,24,61, 0.5);
+}
+.neliö_a{
+  background-color: #5a0303;
+  background-image: linear-gradient(#5a0303 20%, black);
+  width: 100%;
+  display:table;
+  text-align: center;
+  color: white;
+  -webkit-box-shadow: 0px 0px 11px -6px rgba(61, 15, 34, 0.5);
+  -moz-box-shadow: 0px 0px 11px -6px rgba(61, 15, 49, 0.5);
+  box-shadow: 0px 0px 115px -6px rgba(61, 15, 36, 0.5);
+}
+
+span{
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .neliö_a{margin: 0px;}
+  .neliö_j{margin: 0px;}
+  .neliö_s{ margin: 0px;}
+}
+
+@media only screen and (min-width: 768px) {
+  .neliö_a{margin: 5px;}
+  .neliö_j{margin: 5px;}
+  .neliö_s{ margin: 5px;}
+   }

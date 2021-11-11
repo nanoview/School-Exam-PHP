@@ -1,0 +1,43 @@
+
+.omalatikko{
+  background-color:none;
+  width:100%;
+  border-style: solid green;
+  border-width: 5px;
+  padding: 15px;
+  margin:5px 0px 5px 5px;
+  border-style: outset;
+}
+
+
+.container {
+  position: sisalto;
+}
+
+.viesti{
+position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;	
+}
+
+.yhteis{
+    top: 15%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;	
+  }
+
+  
+.veg {
+  background-color:  #100c08;
+  background-image: linear-gradient( black, #b80707);
+  width: 100%;
+  display:table;
+  text-align: left;
+  color: greenyellow;
+  -webkit-box-shadow: 0px 0px 115px -6px rgba(15,24,61, 0.5);
+  -moz-box-shadow: 0px 0px 115px -6px rgba(15,24,61, 0.5);
+  box-shadow: 0px 0px 115px -6px rgba(58, 0, 0, 0.5);
+}
