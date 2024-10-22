@@ -74,7 +74,7 @@
                 <label for="ajan"> Valitse päivämäärä</label>
             </div>
             <div class="col-9 col-s-12">
-                <input type="date" name="ajan" value ="<?php $today=date(dd.mm.yyyy); ?>" min="<?php $today+1 ?>" max= "<?php $today+7 ?>">
+            <input type="date" name="ajan" value="<?php echo date('Y-m-d'); ?>" min="<?php echo date('Y-m-d', strtotime('+1 day')); ?>" max="<?php echo date('Y-m-d', strtotime('+7 days')); ?>">
             </div>
     </div>
     
