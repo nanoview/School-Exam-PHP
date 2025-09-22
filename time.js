@@ -1,28 +1,28 @@
 
 
 $(document).ready(function(){
-  $("#japan").load("aika_japan.php");
+  $("#timeJapan").load("aika_japan.php");
   setInterval(function(){
-    $("#japan").load("aika_japan.php");}, 1000);
+    $("#timeJapan").load("aika_japan.php");}, 1000);
 })
 $(document).ready(function(){
-  $("#america").load("aika_america.php");
+  $("#timeAmerica").load("aika_america.php");
   setInterval(function(){
-    $("#america").load("aika_america.php");}, 1000);
+    $("#timeAmerica").load("aika_america.php");}, 1000);
 })
 
 $(document).ready(function(){
-  $("#suomi").load("aika_suomi.php");
+  $("#timeFinland").load("aika_suomi.php");
   setInterval(function(){
-    $("#suomi").load("aika_suomi.php");}, 1000);
+    $("#timeFinland").load("aika_suomi.php");}, 1000);
 })
 
-function myFunction() {
-  var x = document.getElementById("mynavtanko");
-  if (x.className === "navtanko") {
+function toggleNavbar() {
+  var x = document.getElementById("myNavbar");
+  if (x.className === "navbar") {
     x.className += " responsive";
   } else {
-    x.className = "navtanko";
+    x.className = "navbar";
   }
 }
 

@@ -13,7 +13,7 @@
 <span class= "span">
             <?php
             date_default_timezone_set("Asia/tokyo");
-            echo omaika() ."Tokyo, Japan. <br><br>";
+            echo getCurrentTimeMessage() ."Tokyo, Japan. <br><br>";
             ?>
 </span>
 </div>

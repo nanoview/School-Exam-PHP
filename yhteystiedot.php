@@ -23,16 +23,16 @@
 
  <div class="row">
    
- <div class="col-12 col-s-12 yhteis">
+ <div class="col-12 col-s-12 contact-section">
    <h1>YHTEYSTIEDOT</h1>
    <hr>
    </div>
    <br><br><br><br>
-   <div class="col-12 col-s-12 yhteis">
+  <div class="col-12 col-s-12 contact-section">
           <h3>Tarjoamme tällä hetkellä palveluamme ja herkullisia ruokia vain kolmessa parhaassa kaupungissa maailmassa.</h3>
     </div>
  
-        <div class="col-4 col-s-12 yhteis">
+  <div class="col-4 col-s-12 contact-section">
           <br><br><br><br>
 
           <h2>Newyork</h2>
@@ -43,9 +43,9 @@
         asikaspalvelu@ruokaexpress.com<br>
         Avoinna ma-la klo 10.00-02.00<br>
     </h3>
-    <div id="america"></div>
+  <div id="timeAmerica"></div>
         </div>
-        <div class="col-4 col-s-12 yhteis">
+  <div class="col-4 col-s-12 contact-section">
         <br><br><br><br>
 
 <h2>Helsinki</h2>
@@ -56,9 +56,9 @@ Puh.: xx0 4399600<br>
 asikaspalvelu@ruokaexpress.com<br>
 Avoinna ma-la klo 10.00-02.00<br>
 </h3>
-<div id="suomi"></div>
+<div id="timeFinland"></div>
 </div>
-<div class="col-4 col-s-12 yhteis">
+<div class="col-4 col-s-12 contact-section">
         <br><br><br><br>
 
 <h2>Tokyo</h2>
@@ -69,7 +69,7 @@ Puh.: xx0 4399600<br>
 asikaspalvelu@ruokaexpress.com<br>
 Avoinna ma-la klo 10.00-02.00<br>
 </h3>
-<div id="japan"></div>
+<div id="timeJapan"></div>
 </div>
 
 

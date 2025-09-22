@@ -42,17 +42,17 @@
     <div class="col-3 col-s-12">
             <br>
         <div>
-             <div id="suomi"></div>
+             <div id="timeFinland"></div>
         </div>
         <br>
 
         <div>
-              <div id="america"></div>
+              <div id="timeAmerica"></div>
         </div>
         <br>
 
         <div>
-              <div id="japan"></div>
+              <div id="timeJapan"></div>
         </div>
       
 </div>  

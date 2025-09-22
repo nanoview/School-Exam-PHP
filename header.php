@@ -13,13 +13,15 @@
 <div class="header">
     <a href="index.php">Ruoka Express</a>
     </div>
-    <div class="navtanko" id="mynavtanko">
+          <div class="navbar" id="myNavbar">
       <a href="index.php">Etusivu</a>
-      <a href="ruokat.php">Ruokat</a>
-      <a href="pöytä.php">Pöytä varaus</a>
+     <a href="ruokat.php">Ruoat</a>
+     <a href="poyta.php">Pöytävaraus</a>
+     <a href="available_reservations.php">Tulevat varaukset</a>
+     <a href="reservations.php">Kaikki varaukset</a>
       <a href="yhteystiedot.php">Yhteystiedot</a>
       <a href="kuvat.php">Kuvat</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+               <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">
       <i class="fa fa-bars"></i>
       </a>
     </div>

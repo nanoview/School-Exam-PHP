@@ -14,7 +14,7 @@
   <span class="span">
             <?php
             date_default_timezone_set("America/New_York");
-            echo omaika(). " Newyork, America. ";
+            echo getCurrentTimeMessage(). " Newyork, America. ";
             ?>
   </span>
 </div>

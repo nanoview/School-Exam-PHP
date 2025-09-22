@@ -1,0 +1,24 @@
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+error_log
+*.log
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE/editor
+.vscode/
+.idea/
+*.code-workspace
+
+# PHP dependencies (if later added via Composer)
+vendor/
+composer.lock
+
+# Node dependencies (if ever used)
+node_modules/

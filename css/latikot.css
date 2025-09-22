@@ -1,5 +1,5 @@
 
-.omalatikko{
+.custom-box{
   background-color:none;
   width:100%;
   border-style: solid green;
@@ -11,10 +11,10 @@
 
 
 .container {
-  position: sisalto;
+  position: relative;
 }
 
-.viesti{
+.message{
 position: absolute;
   top: 50%;
   width: 100%;
@@ -22,7 +22,7 @@ position: absolute;
   font-size: 18px;	
 }
 
-.yhteis{
+.contact-section{
     top: 15%;
     width: 100%;
     text-align: center;

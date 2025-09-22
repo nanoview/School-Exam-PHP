@@ -12,7 +12,7 @@
     <span class="span">
             <?php
             date_default_timezone_set("Europe/Helsinki");
-            echo  omaika(). " Helsinki, Finland. <br><br>";
+            echo  getCurrentTimeMessage(). " Helsinki, Finland. <br><br>";
             ?>
     </span>
   

@@ -1,0 +1,17 @@
+# Robots.txt for School Restaurant Project
+
+# Allow all web crawlers to access the site
+User-agent: *
+Allow: /
+
+# Disallow access to sensitive files and directories
+Disallow: /connect_db.php
+Disallow: /error_log
+Disallow: /*.log
+
+# Allow access to CSS and image files for proper rendering
+Allow: /css/
+Allow: /kuva/
+
+# Optional: Specify sitemap location (uncomment and update if you have one)
+# Sitemap: http://yoursite.com/sitemap.xml
